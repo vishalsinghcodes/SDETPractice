@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-10T08:54:41 IST" name="Parallel Test Suite" finished-at="2024-11-10T08:55:01 IST" duration-ms="19910">
+    <groups>
+    </groups>
+    <test started-at="2024-11-10T08:54:41 IST" name="Test" finished-at="2024-11-10T08:55:01 IST" duration-ms="19910">
+      <class name="dockerRelatedStuff.ForParallelTest">
+        <test-method signature="Test02()[pri:0, instance:dockerRelatedStuff.ForParallelTest@415b0b49]" started-at="2024-11-10T08:54:41 IST" name="Test02" finished-at="2024-11-10T08:54:50 IST" duration-ms="9462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02 -->
+        <test-method signature="Test01()[pri:0, instance:dockerRelatedStuff.ForParallelTest@415b0b49]" started-at="2024-11-10T08:54:41 IST" name="Test01" finished-at="2024-11-10T08:54:47 IST" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01 -->
+        <test-method signature="Test03()[pri:0, instance:dockerRelatedStuff.ForParallelTest@415b0b49]" started-at="2024-11-10T08:54:41 IST" name="Test03" finished-at="2024-11-10T08:54:52 IST" duration-ms="11184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:dockerRelatedStuff.ForParallelTest@415b0b49]" started-at="2024-11-10T08:54:47 IST" name="aftermethod" finished-at="2024-11-10T08:54:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:dockerRelatedStuff.ForParallelTest@415b0b49]" started-at="2024-11-10T08:54:50 IST" name="aftermethod" finished-at="2024-11-10T08:54:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:dockerRelatedStuff.ForParallelTest@415b0b49]" started-at="2024-11-10T08:54:52 IST" name="aftermethod" finished-at="2024-11-10T08:54:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- dockerRelatedStuff.ForParallelTest -->
+      <class name="dockerRelatedStuff.ForParallelTest3">
+        <test-method signature="Test01()[pri:0, instance:dockerRelatedStuff.ForParallelTest3@311bf055]" started-at="2024-11-10T08:54:52 IST" name="Test01" finished-at="2024-11-10T08:54:55 IST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:dockerRelatedStuff.ForParallelTest3@311bf055]" started-at="2024-11-10T08:54:55 IST" name="aftermethod" finished-at="2024-11-10T08:54:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="Test02()[pri:0, instance:dockerRelatedStuff.ForParallelTest3@311bf055]" started-at="2024-11-10T08:54:55 IST" name="Test02" finished-at="2024-11-10T08:55:01 IST" duration-ms="5263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02 -->
+        <test-method signature="Test03()[pri:0, instance:dockerRelatedStuff.ForParallelTest3@311bf055]" started-at="2024-11-10T08:54:56 IST" name="Test03" finished-at="2024-11-10T08:55:01 IST" duration-ms="5111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:dockerRelatedStuff.ForParallelTest3@311bf055]" started-at="2024-11-10T08:55:01 IST" name="aftermethod" finished-at="2024-11-10T08:55:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:dockerRelatedStuff.ForParallelTest3@311bf055]" started-at="2024-11-10T08:55:01 IST" name="aftermethod" finished-at="2024-11-10T08:55:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- dockerRelatedStuff.ForParallelTest3 -->
+      <class name="executionWithBatch.StartDocker">
+        <test-method is-config="true" signature="startDockerServer()[pri:0, instance:executionWithBatch.StartDocker@660acfb]" started-at="2024-11-10T08:54:33 IST" name="startDockerServer" finished-at="2024-11-10T08:54:41 IST" duration-ms="8086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerServer -->
+      </class> <!-- executionWithBatch.StartDocker -->
+      <class name="dockerRelatedStuff.ForParallelTest2">
+        <test-method signature="Test01()[pri:0, instance:dockerRelatedStuff.ForParallelTest2@6d5620ce]" started-at="2024-11-10T08:54:47 IST" name="Test01" finished-at="2024-11-10T08:54:50 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:dockerRelatedStuff.ForParallelTest2@6d5620ce]" started-at="2024-11-10T08:54:50 IST" name="aftermethod" finished-at="2024-11-10T08:54:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="Test02()[pri:0, instance:dockerRelatedStuff.ForParallelTest2@6d5620ce]" started-at="2024-11-10T08:54:50 IST" name="Test02" finished-at="2024-11-10T08:54:56 IST" duration-ms="6046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02 -->
+        <test-method signature="Test03()[pri:0, instance:dockerRelatedStuff.ForParallelTest2@6d5620ce]" started-at="2024-11-10T08:54:50 IST" name="Test03" finished-at="2024-11-10T08:54:56 IST" duration-ms="5297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:dockerRelatedStuff.ForParallelTest2@6d5620ce]" started-at="2024-11-10T08:54:56 IST" name="aftermethod" finished-at="2024-11-10T08:54:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:dockerRelatedStuff.ForParallelTest2@6d5620ce]" started-at="2024-11-10T08:54:56 IST" name="aftermethod" finished-at="2024-11-10T08:54:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- dockerRelatedStuff.ForParallelTest2 -->
+      <class name="executionWithBatch.StopDocker">
+        <test-method is-config="true" signature="startDockerServer()[pri:0, instance:executionWithBatch.StopDocker@f58853c]" started-at="2024-11-10T08:55:01 IST" name="startDockerServer" finished-at="2024-11-10T08:55:12 IST" duration-ms="11234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerServer -->
+      </class> <!-- executionWithBatch.StopDocker -->
+    </test> <!-- Test -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>
